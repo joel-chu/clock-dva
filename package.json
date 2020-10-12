@@ -1,0 +1,33 @@
+{
+  "name": "clock-dva",
+  "version": "0.0.1",
+  "description": "A clock application build with dva.js for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "dvajs"
+  ],
+  "author": "Joel Zhu",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "dva": "2.0.1",
+    "antd": "3.3.0",
+    "react": "16.2.0",
+    "lodash": "4.17.5",
+    "react-dom": "16.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
